@@ -1,0 +1,62 @@
+
+body {
+    background: black;
+    font-family: "Roboto", sans-serif;
+}
+
+.post {
+    box-sizing: border-box;
+    background: whitesmoke;
+    width: 500px; 
+    margin:auto;  /* hace que el contenedor padre se ajuste verticalmente a la cantidad de cajas*/
+}
+
+.encabezado {
+    display:flex;
+    padding: 10px;
+}
+
+div.encabezado i { 
+    padding: 5px;
+    font-size: 35px;  /* Para los iconos el tamaño se trabaja con font-size*/
+}
+
+.encabezado h3, p {
+    margin:0;
+    font-size: medium;
+}
+
+#elipsis {
+    margin-left: auto; /* hace que el icono se alinie a la derecha*/
+}
+
+.imagen img {
+    width:100%;
+}
+
+.piedefoto {
+    display:flex;
+}
+
+.piedefoto div:last-child {
+    margin-left: auto; 
+}
+
+div.piedefoto i {
+    font-size: 35px;
+    padding: 5px;
+}
+
+#likes {
+    margin-top: 15px;
+    margin-left: 8px;
+    margin-right: 5px;
+}
+
+.descripcion {
+    margin-top: 10px;
+    margin-left: 8px;
+    margin-right: 5px;
+    padding-bottom: 10px;
+}
+     
